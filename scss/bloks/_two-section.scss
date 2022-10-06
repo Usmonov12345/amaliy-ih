@@ -1,0 +1,59 @@
+.two-section{
+
+    .two-hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__box{
+            position: relative;
+            &__image1{
+                width: 600px;
+            }
+            &__image2{
+                width: 600px;
+            }
+
+            &__link{
+                position: absolute;
+                color: aliceblue;
+                bottom: 10px;
+                left: 10px;
+                border-bottom: 2px solid transparent;
+                transition: 0.4s;
+
+                &:hover{
+                    color: black;
+                    border-bottom: 2px solid #ff9946;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .two-section{
+
+        .two-hero{
+            flex-direction: column;
+         
+            &__box{
+                position: relative;
+                &__image1{
+                    
+                    margin: 30px 0;
+                }
+                &__image2{
+                    margin: 30px 0;
+                }
+
+                &__link{
+                    position: absolute;
+                    bottom: 40px;
+                }
+            }
+        }
+    }
+    
+}
