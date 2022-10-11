@@ -1,0 +1,113 @@
+.three-section{
+    padding: 190px 0;
+    
+
+    .hero3{
+    position: relative;
+        &__title{
+        position: absolute;
+        top: 400px;
+        color: #999;
+        }
+
+        &__text{
+            color: #999;
+        position: absolute;
+        top: 800px;
+    }
+    }
+
+    .hero2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 200px;
+
+        &__card{
+
+            height: 480px;
+            padding: 40px 0;
+            margin: 0 30px ;
+            transition: 0.6s;
+
+            &:hover{
+                background-color:rgba(153, 153, 153, 0.557);
+            }
+            &__text{
+                color: #999;
+                padding:  0 0 30px 0;
+                font-size: 24px;
+                transition: 0.6s;
+                &:hover{
+                    color: #000;
+                }
+            }
+
+
+            &__title{
+                color: #000;
+                padding: 26px 0;
+                font-size: 30px;
+            }
+
+        
+
+
+
+            &__car{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+        padding: 10px 0;
+                
+                    &__link{
+                        background-color: #f46d44;
+                        padding: 10px 40px;
+                        transition: 0.5s;
+                        color: #fff;
+                        &:hover{
+                            background-color: rgba(153, 153, 153, 0.289);
+                            color: #f46d44;
+                        border-radius: 5px;
+                    }
+
+                    &__car1{
+                        color: red;
+                    }
+                }
+            }
+            background-color: #fff;
+            padding: 30px  20px;
+
+            &__image{
+                margin: 0 auto;
+                display: block;
+                width: 70%;
+            }
+
+            &__image1{
+                margin: 0 auto;
+                display: block;
+                width: 60%;
+            }
+        }
+
+    
+    }
+
+    h3{
+        font-size: 35px;
+        padding: 0 20px 0 0;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .three-section{
+
+        .hero2{
+            display: none;
+        }
+    }
+}

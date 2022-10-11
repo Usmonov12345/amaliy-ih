@@ -1,11 +1,55 @@
 .container{
-    margin: 100%;
+    width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 70px;
-    background-color: aliceblue;
+    background:#fff;
+    position: relative;
 }
 
 img{
     object-fit: cover;
+}
+
+
+
+
+.image{
+    position: absolute;
+    left: 0;
+    bottom: 280px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 50pc;
+    transition: 0.5s;
+
+&:active{
+    background-color: black;
+    transition: 0.1s;
+
+}
+}
+
+.image111{
+    position: absolute;
+    bottom: 280px;
+    right: 0;
+        padding: 5px;
+        background-color: transparent;
+        border-radius: 50pc;
+        transition: 0.5s;
+
+    &:active{
+        background-color: black;
+        transition: 0.1s;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+     .container{
+
+        width: 100%;
+        max-width: 668px;
+     }
 }

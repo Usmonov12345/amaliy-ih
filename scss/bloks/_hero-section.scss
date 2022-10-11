@@ -1,8 +1,8 @@
 .hero-section{
-    margin: 0;
-    padding: 50px 0;
+margin: 0;
+padding: 50px 0;
 
-    .hero{
+.hero{
         background-image:  url(../../img/Ubb9IXgXb94e0zQHAzNHA.jpeg);
         padding: 220px 0;
         position: relative;
@@ -66,7 +66,6 @@
 
         &__btn{
             background: #FF9846;
-
             color: #f2f2f2;
             position: absolute;
             right: 30px;
@@ -74,10 +73,10 @@
             top: 320px;
             padding: 4px  50px;
             border-radius: 10px;
-
             &:hover{
-                background-color:rgba(0, 0, 0, 0.4);
+                background-color:rgba(0, 0, 0, 0.199);
                 transition: 0.3s;
+                color:#FF9846 ;
 
             }
         }
@@ -86,8 +85,113 @@
     }
 
     .image{
-        display: block;
-        margin: 0 auto;
         padding: 20px 0;
+        position: absolute;
+        top: 540px;
+        left: 650px;
+        
     }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.hero-section{
+        margin: 0;
+        padding: 50px 0;
+        
+        .hero{
+                background-image:  url(../../img/Ubb9IXgXb94e0zQHAzNHA.jpeg);
+                padding: 220px 0;
+                position: relative;
+                border-radius: 10px;
+                &__title{
+                    color:#FF9846 ;
+                    position: absolute;
+                    right: 20px;
+                    font-size: 44px;
+                    text-align: center;
+                    top: -30px;
+                    border-bottom: 4px solid transparent;
+                    
+                    &:hover{
+                        border-bottom: 4px solid#FF9846 ;
+        
+                transition: 0.5s;
+            }
+                }
+        
+                &__text1{
+                    position: absolute;
+                    right: 20px;
+                    color: #fff;
+                    font-size: 40px;
+                    top: 100px;
+                    text-align: center;
+                    border-bottom: 4px solid transparent;
+                &:hover{
+                    border-bottom: 4px solid#FF9846 ;
+                    color:#FF9846 ;
+                    transition: 0.5s;
+            
+                    }
+                }
+        
+                &__title2{
+                    color:#fff;
+                    position: absolute;
+                    right: 150px;
+                    font-size: 40px;
+                    top: 150px;
+                    border-bottom: 4px solid transparent;
+                &:hover{
+                    border-bottom: 4px solid#FF9846 ;
+                    transition: 0.5s;
+            
+                    }
+                }
+                &__title3{
+                    position: absolute;
+                    right: 130px;
+                    font-size: 60px;
+                    color: #f2f2f2;
+                    top: 200px;
+                    border-bottom: 2px solid transparent;
+                &:hover{
+                    border-bottom: 4px solid#FF9846 ;
+                    transition: 0.5s;
+            
+                    }
+                }
+        
+                &__btn{
+                    background: #FF9846;
+                    
+                    color: #f2f2f2;
+                    position: absolute;
+                    right: 100px;
+                    font-size: 40px;
+                    top: 370px;
+                    padding: 4px  50px;
+                    border-radius: 10px;
+        
+                    &:hover{
+                        background-color:rgba(0, 0, 0, 0.4);
+                        transition: 0.3s;
+        
+                    }
+                }
+        
+        
+            }
+            .image{
+                padding: 20px 0;
+                position: absolute;
+                top: 540px;
+                left: 280px;
+                
+            }
+}
 }

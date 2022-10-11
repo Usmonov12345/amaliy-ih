@@ -1,0 +1,31 @@
+#salom{
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: relative;
+
+
+}
+.hero-tun{
+    position: absolute;
+    width: 25px;
+    position: fixed;
+    padding: 3px;
+    right: 100px;
+    border-radius: 30pc;
+    top: 20px;
+    z-index: 9999999999999999;
+    background-color: #fff;
+    &:hover{
+        background-color:#f2f2f2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #salom{
+        position: relative;
+    }
+    .hero-tun{
+        position: absolute;
+    }
+}
